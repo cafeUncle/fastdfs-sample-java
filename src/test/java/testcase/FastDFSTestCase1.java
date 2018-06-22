@@ -47,7 +47,7 @@ public class FastDFSTestCase1 {
             StorageServer storageServer = null;
 
             StorageClient storageClient = new StorageClient(trackerServer, storageServer);
-            byte[] b = storageClient.download_file("group1", "M00/00/00/wKgAyFsKZRSAH2qZAACt0KxMhHQ885.jpg");
+            byte[] b = storageClient.download_file("group1", "M00/00/00/wKgCyFsKkDeAbJlIAAACeXek7Pk612.jpg");
             System.out.println(b);
             IOUtils.write(b, new FileOutputStream("D:/"+UUID.randomUUID().toString()+".jpg"));
         } catch (Exception e) {
